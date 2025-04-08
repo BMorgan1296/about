@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About - Brad Morgan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link to main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="icon" href="media/0xADE1A1DE.png">
+    <base rel="noopener noreferrer" target="_blank">
+</head>
+
+<body>
+    <nav>
+    		<ul>
+	        	<li><a>About</a></li>
+        		<li><a href="blog/blog.html">Blog</a></li>
+    		</ul>
+		</nav>
+    <div class="container">
+        <div class="blurb">
+            <div class="profile-container">
+                <div class="profile-header">
+                    <img src="media/mug.jpeg" alt="[Me]" style="height:10em;" class="circular">
+                    <h1>Brad Morgan</h1>
+                    <ul>
+                        <li>
+                            <a href="mailto:bradley.morgan@adelaide.edu.au"> <img class="invert_effect" src="media/email.png" style="height:1.4em;" alt="[Email Icon]"></a>
+                        </li>
+
+                        <li>
+                            <a href="https://github.com/BMorgan1296"><img src="media/GitHub.png" style="height:1.3em;" alt="[GitHub Logo]"></a>
+                        </li>
+                        <!-- <li><a href="https://dblp.uni-trier.de/pid/251/5347-2.html"> <img src="media/dblp.png" style="height:1.3em;" alt="[dblp Icon]"></a></li> -->
+                        <!-- <li><a href="https://scholar.google.com.au/citations?user=70aLW-kAAAAJ&hl=en"><img src="media/scholar.png" style="height:1.3em;" alt="[Google Scholar Logo]"></a></li> -->
+                        <li>
+                            <a href="https://www.linkedin.com/in/bradmorgan1296/"><img src="media/linkedin-logo.png" style="height:1.3em;" alt="[LinkedIn Logo]"></a>
+                        </li>
+                        <li>
+                            <a href="https://orcid.org/0000-0002-0106-9750"><img src="media/ORCID.png" style="height:1.3em;" alt="[ORCID Logo]"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="profile-info">
+                		<h2>About Me</h2>
+
+                    <p>I am a PhD candidate at <a href="https://www.adelaide.edu.au/">The University of Adelaide</a> and a computer security researcher at <a href="https://www.dst.defence.gov.au/">DST Group</a>. 
+                    <br><br>
+                    My research interests revolve around the intersection between hardware and software security concerning microprocessors. In a nutshell, this work involves reverse engineering processors to exploit flaws in their design, construction, and behaviour, to breach security boundaries and potentially retrieve data not meant to be observed.
+                    <br><br>
+                    As a researcher, my aim is to ensure experimental repeatability of my work, rigorous and honest reporting of results, as well as effective yet concise scientific communication. If you don't see a code link below, rest assured it is on the way!
+                    </p>
+                </div>
+            </div>
+            <h2>Publications</h2>
+            <p>
+                <ul class="bigFont">
+                    <li>
+                        <b> <a href="" class="no-color-change">
+				Slice+Slice Baby: Generating Last-Level Cache Eviction Sets in the Blink of an Eye
+				</a>
+				</b> <br> Bradley Morgan,
+                        <a>Gal Horowitz</a>,
+                        <a>Sioli O'Connell</a>,
+                        <a href="https://codentium.com/about/" style="color:#1F51FF">Stephan van Schaik</a>,
+                        <a href="https://chitchanok.org" style="color:#1F51FF">Chitchanok Chuengsatiansup</a>,
+                        <a href="https://www.cc.gatech.edu/~genkin/" style="color:#1F51FF">Daniel Genkin</a>,
+                        <a href="https://maennel.net/" style="color:#1F51FF">Olaf Maennel</a>,
+                        <a>Paul Montague</a>,
+                        <a href="https://eyalro.net/" style="color:#1F51FF">Eyal Ronen</a>
+                        , and <a href="https://yuval.yarom.org/" style="color:#1F51FF">Yuval Yarom</a>.<br>
+                        <em></em><a href="https://www.ieee-security.org/TC/SP2025/"><em>IEEE S&P 2025 (to appear)</em></a>
+                        <!-- <span style="float:right;">[ <a href="PDFs/....pdf" style="color:#2989E9">print</a> | <a href="https://github.com/0xADE1A1DE/..." style="color:#2989E9">code</a> ] -->
+				</span>
+                    </li>
+            </p>
+        </div>
+        <!-- /.blurb -->
+    </div>
+    <!-- /.container -->
+    <footer>
+        <ul>
+            <span style="float:right; font-weight:normal;"><em>Last updated April 2025</em></span>
+        </ul>
+    </footer>
+    <script>
+        function setWidth() {
+    	        const screenWidth = window.screen.width; // Get the device screen width
+    	        const websiteWidth = Math.min(screenWidth * 0.618, screenWidth); // 61.8% of screen width
+    	        document.body.style.width = `${websiteWidth}px`; // Set the width in pixels
+    	        document.body.style.margin = "0 auto"; // Center the website
+    	    	}
+    
+    	    	// Set the width on page load and when the window is resized
+    	    	window.addEventListener("load", setWidth);
+    	    	window.addEventListener("resize", setWidth);
+    </script>
+</body>
+
+</html>
